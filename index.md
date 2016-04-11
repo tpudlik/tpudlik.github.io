@@ -1,9 +1,13 @@
 ---
-layout: home
-excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
-tags: [Jekyll, theme, responsive, blog, template]
+layout: page
+excerpt: "About Ted."
+tags: [Ted Pudlik, Tadeusz Pudlik, homepage]
+share: False
 image:
-  feature: sample-image-1.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: header-heisenberg.jpg
 ---
+
+I am a software engineer at Google, originally trained as a theoretical
+physicist.  This webpage contains brief descriptions of my
+[research work](/research) and [side projects](/projects).
+

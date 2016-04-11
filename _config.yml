@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Ted Pudlik
 locale:           en_US
 url:
 
@@ -41,21 +41,21 @@ titlecase: true
 
 # Site owner
 owner:
-  name: Your Name
+  name: Ted Pudlik
   avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email:
+  bio: "Physics Ph.D. and programmer."
+  email: tpudlik@gmail.com
   disqus-shortname:
   twitter: #username
   facebook: #username
   google:
     plus: #username
-    analytics:
+    analytics: "UA-29691403-1"
     verify:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: tpudlik
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
   xing: #username
