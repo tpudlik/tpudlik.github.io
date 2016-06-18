@@ -29,6 +29,14 @@ I sometimes ask and answer questions at [Stack Exchange: Physics][].  I am
 especially proud of [my explanation of a simple DC motor][DC motor],
 easily the most enjoyable piece of physics I did in graduate school.
 
+I am also slowly working my way through Project Euler.
+
+<figure>
+    <a href="https://projecteuler.net/">
+    <img style="margin:0px auto;display:block" src="https://projecteuler.net/profile/tpudlik.png">
+    </a>
+</figure>
+
 [DC motor]: http://physics.stackexchange.com/a/180935/8014
 [Raspberry Pi]: https://www.raspberrypi.org/
 [Stack Exchange: Physics]: http://physics.stackexchange.com/users/8014/ted-pudlik

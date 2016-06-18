@@ -7,6 +7,6 @@ image:
   feature: header-heisenberg.jpg
 ---
 
-I am a theoretical physicist, and from June 2016 will be working as a
-software engineer at Google in Mountain View, CA.  This webpage contains brief
-descriptions of my [research work](/research) and [side projects](/projects).
+I am a software engineer at Google, originally trained as a theoretical
+physicist.  This webpage contains brief descriptions of my
+[research work](/research) and [side projects](/projects).
