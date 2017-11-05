@@ -43,7 +43,7 @@ I am also slowly working my way through Project Euler.
     </a>
 </figure>
 
-On the more artistic side, I have done some laser-cutting work
+On the more artistic side, I laser-cut flowers
 ([photos][sunflower photos], [design][sunflower design]).
 
 [DC motor]: http://physics.stackexchange.com/a/180935/8014
