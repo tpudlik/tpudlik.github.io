@@ -7,6 +7,6 @@ image:
   feature: header-heisenberg.jpg
 ---
 
-I am a software engineer at Google, originally trained as a theoretical
-physicist.  This webpage contains brief descriptions of my
-[research work](/research) and [side projects](/projects).
+I am a software engineer at [Waymo](https://waymo.com), originally trained as
+a theoretical physicist.  This webpage contains descriptions of my grad school
+[research work](/research) and various [side projects](/projects).

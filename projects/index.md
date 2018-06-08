@@ -44,7 +44,8 @@ I am also slowly working my way through Project Euler.
 </figure>
 
 On the more artistic side, I laser-cut flowers
-([photos][sunflower photos], [design][sunflower design]).
+([photos][sunflower photos], [design][sunflower design]) and play
+paper-and-pencil roleplaying games.
 
 [DC motor]: http://physics.stackexchange.com/a/180935/8014
 [Raspberry Pi]: https://www.raspberrypi.org/
