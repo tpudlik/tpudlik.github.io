@@ -3,6 +3,7 @@ layout: page
 excerpt: "Raspberry Pi remote control for the AC."
 title: RaspAC
 tags: [Raspberry Pi, IR remote, AC remote]
+share: false
 image:
   feature: header-RPiAC.jpg
 ---

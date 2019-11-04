@@ -3,6 +3,7 @@ layout: page
 excerpt: "Raspberry Pi hydroponics system."
 title: HydroPi
 tags: [Raspberry Pi, hydroponics]
+share: false
 image:
   feature: header-hydroponics-2.jpg
 ---

@@ -3,7 +3,7 @@ layout: page
 excerpt: "Ted's scientific work in physics and other fields."
 tags: [Ted Pudlik, Tadeusz Pudlik, physics, research]
 title: Academic research
-share: False
+share: false
 image:
   feature: header-phase_portrait.png
 ---

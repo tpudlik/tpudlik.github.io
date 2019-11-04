@@ -3,6 +3,7 @@ layout: page
 excerpt: "Let birds leave you postcards."
 title: Paparazzi bird feeder
 tags: [Jekyll, theme, responsive, template]
+share: false
 image:
   feature: header-tufted_titmouse.jpg
 ---

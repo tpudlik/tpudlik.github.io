@@ -3,6 +3,7 @@ layout: page
 excerpt: "Cell jet printer."
 title: Bioprinter
 tags: [Ted Pudlik, Tadeusz Pudlik, bioprinter]
+share: false
 image:
   feature: bioprinter-header-2.JPG
 ---
