@@ -55,7 +55,7 @@ list of materials, assembly instructions, and software [on GitHub][gh].
     </figcaption>
 </figure>
 
-[ex1]: http://www.instructables.com/id/Vertical-Hydroponic-Farm/
-[ex2]: http://www.instructables.com/id/My-Indoor-DWC-Hydroponics-System/
+[ex1]: https://www.instructables.com/id/Vertical-Hydroponic-Farm/
+[ex2]: https://www.instructables.com/id/My-Indoor-DWC-Hydroponics-System/
 [gh]: https://github.com/tpudlik/hydroponics
-[TROFAST]: http://www.ikea.com/us/en/catalog/categories/series/19027/
+[TROFAST]: https://www.ikea.com/us/en/catalog/categories/series/19027/

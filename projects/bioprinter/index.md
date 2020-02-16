@@ -33,13 +33,13 @@ To learn more about the bioprinter, check out the
 [host](https://github.com/tpudlik/bioprinter_host) and
 [Arduino](https://github.com/tpudlik/bioprinter_arduino) software on GitHub
 and visit [Dan's blog][]. The original inspiration for this project was
-[this instructable](http://www.instructables.com/id/DIY-BioPrinter/)
-by [BioCurious](http://biocurious.org/).
+[this instructable](https://www.instructables.com/id/DIY-BioPrinter/)
+by [BioCurious](https://biocurious.org/).
 
 
 [Science Hack Day Boston]: https://sciencehackdayboston.wordpress.com/
 [Dan Burkhardt]: https://scienceroastery.wordpress.com/
 [Dan's blog]: https://scienceroastery.wordpress.com/2015/02/05/bioprinter-part-3/
-[InkShield]: http://nicholasclewis.com/projects/inkshield/
-[G-codes]: http://en.wikipedia.org/wiki/G-code
+[InkShield]: https://nicholasclewis.com/projects/inkshield/
+[G-codes]: https://en.wikipedia.org/wiki/G-code
 [Pascal Timshel]: https://github.com/pascaltimshel
