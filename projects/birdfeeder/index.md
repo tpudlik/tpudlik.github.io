@@ -52,7 +52,7 @@ was moved into a weatherproof box.
 </figure>
 
 For more images and instructions for building your own, check out
-[the project's website](https://www.birdfeeder.camera).  You can also follow
+[the project's website](http://www.birdfeeder.camera).  You can also follow
 the prototype on [Flickr][].
 
 <figure class="third">
@@ -66,8 +66,8 @@ the prototype on [Flickr][].
 </figure>
 
 
-[Aaron Mead]: https://aaronmead.com/
+[Aaron Mead]: http://aaronmead.com/
 [Andrew Roberson]: https://www.linkedin.com/in/andrewroberson
 [Flickr]: https://www.flickr.com/photos/131794461@N04
 [Twitter]: https://twitter.com/paparazzifeeder
-[Triangle Startup Weekend]: https://trianglemaker.startupweekend.org/
+[Triangle Startup Weekend]: http://trianglemaker.startupweekend.org/

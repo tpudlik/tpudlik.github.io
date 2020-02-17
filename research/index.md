@@ -35,7 +35,7 @@ offer tunable sources in the underserved terahertz range of the spectrum.
 In collaboration with [my advisor][David Campbell] and [Antonio Castro-Neto][]
 I developed a quantum model of the magnetron, one possible design for a 2D
 solid-state source.  Our work is available as a
-[preprint](https://arxiv.org/abs/1602.07669).
+[preprint](http://arxiv.org/abs/1602.07669).
 
 Much earlier, I wrote a *Mathematica* notebook for finding the band
 structures of graphene nanoribbons in the presence of magnetic fields; you
@@ -61,16 +61,16 @@ entanglement is present in the system for an appreciable time.  This suggests
 entanglement might be generated for other initial conditions if the system is
 driven towards the stable fixed point states.  We carried out simulations
 using the quantum jump method to show that this is indeed the case.  Our paper
-on the subject is posted on the [arXiv](https://arxiv.org/abs/1309.0784) and
+on the subject is posted on the [arXiv](http://arxiv.org/abs/1309.0784) and
 has been
-[published in <em>Physical Review A</em>](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.88.063606).
+[published in <em>Physical Review A</em>](http://journals.aps.org/pra/abstract/10.1103/PhysRevA.88.063606).
 
 We have also applied semiclassical techniques to the dimer problem, trying to
 understand the most important features of the system's behavior in terms of
 quantum corrections to a classical model.  In particular, we derived a simple
 yet accurate semiclassical  estimate of the tunneling rate between the wells.
-The paper is on the [arXiv](https://arxiv.org/abs/1409.0769) and in
-[<em>Physical Review A</em>](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.90.053610).
+The paper is on the [arXiv](http://arxiv.org/abs/1409.0769) and in
+[<em>Physical Review A</em>](http://journals.aps.org/pra/abstract/10.1103/PhysRevA.90.053610).
 A more visual summary is provided by the poster I presented at the BEC2014
 conference in Levico, Italy ([pdf](BEC2014_poster.pdf)).
 
@@ -96,12 +96,12 @@ Back in 2006, I spent a summer acquiring and analyzing vibrational spectra of
 the 1,1-difluoroethylene&ndash;hydrogen fluoride complex.   after three more
 years of efforts by others, the structure of this complex was determined.  I
 am a coauthor of the paper announcing the results,
-[J. Chem. Phys. <b>131</b>, 204301 (2009)](https://link.aip.org/link/doi/10.1063/1.3250865).
+[J. Chem. Phys. <b>131</b>, 204301 (2009)](http://link.aip.org/link/doi/10.1063/1.3250865).
 
 
-[Anna Swan and Bennett Goldberg]: https://ultra.bu.edu/
-[Antonio Castro-Neto]: https://graphene.nus.edu.sg/content/profile/antonio-castro-neto
-[Boston University]: https://physics.bu.edu/
-[Caltech]: https://www.hss.caltech.edu/
-[David Campbell]: https://physics.bu.edu/sites/campbell-group/
-[William Loinaz]: https://www3.amherst.edu/~waloinaz/
+[Anna Swan and Bennett Goldberg]: http://ultra.bu.edu/
+[Antonio Castro-Neto]: http://graphene.nus.edu.sg/content/profile/antonio-castro-neto
+[Boston University]: http://physics.bu.edu/
+[Caltech]: http://www.hss.caltech.edu/
+[David Campbell]: http://physics.bu.edu/sites/campbell-group/
+[William Loinaz]: http://www3.amherst.edu/~waloinaz/

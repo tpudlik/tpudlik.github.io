@@ -16,9 +16,9 @@ my living room!  Wouldn't it be more useful to turn the AC on before I leave
 work?
 
 Solution: I purchased a Raspberry Pi, installed an Apache web server,
-[connected some IR diodes and a receiver](https://upverter.com/alexbain/f24516375cfae8b9/Open-Source-Universal-Remote/),
-[set up the Linux Infrared Remote Control library](https://alexba.in/blog/2013/01/06/setting-up-lirc-on-the-raspberrypi/),
-[recorded the IR codes](https://absurdlycertain.blogspot.com/2013/03/lirc-raspi-remote-control-configuration.html),
+[connected some IR diodes and a receiver](http://upverter.com/alexbain/f24516375cfae8b9/Open-Source-Universal-Remote/),
+[set up the Linux Infrared Remote Control library](http://alexba.in/blog/2013/01/06/setting-up-lirc-on-the-raspberrypi/),
+[recorded the IR codes](http://absurdlycertain.blogspot.com/2013/03/lirc-raspi-remote-control-configuration.html),
 and voilà!  I can SSH into my air conditioner.
 
 But SSH is not the most user-friendly way of interacting with a
@@ -44,8 +44,8 @@ this issue!
     <figcaption>A Raspberry Pi IR transceiver.</figcaption>
 </figure> -->
 
-[My apartment]: https://www.universityapartmentsdurham.com/
-[temperature sensor]: https://www.adafruit.com/products/385
-[mockup]: https://raspac-mockup.appspot.com/
-[Moteinos]: https://lowpowerlab.com/moteino/
-[RF transmitter]: https://www.ebay.com/itm/1pcs-RF-transmitter-and-receiver-kit-for-Arduino-project-433Mhz/370685120131?rt=nc
+[My apartment]: http://www.universityapartmentsdurham.com/
+[temperature sensor]: http://www.adafruit.com/products/385
+[mockup]: http://raspac-mockup.appspot.com/
+[Moteinos]: http://lowpowerlab.com/moteino/
+[RF transmitter]: http://www.ebay.com/itm/1pcs-RF-transmitter-and-receiver-kit-for-Arduino-project-433Mhz/370685120131?rt=nc

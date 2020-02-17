@@ -47,8 +47,8 @@ On the more artistic side, I laser-cut flowers
 ([photos][sunflower photos], [design][sunflower design]) and play
 paper-and-pencil roleplaying games.
 
-[DC motor]: https://physics.stackexchange.com/a/180935/8014
+[DC motor]: http://physics.stackexchange.com/a/180935/8014
 [Raspberry Pi]: https://www.raspberrypi.org/
-[Stack Exchange: Physics]: https://physics.stackexchange.com/users/8014/ted-pudlik
+[Stack Exchange: Physics]: http://physics.stackexchange.com/users/8014/ted-pudlik
 [sunflower design]: sunflower_for_cut.svg
 [sunflower photos]: https://photos.app.goo.gl/pGXIFdXDmtJKfpqG2
