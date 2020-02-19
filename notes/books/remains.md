@@ -1,6 +1,7 @@
 ---
 layout: page
 title: The Remains of the Day
+date: 2018-02-01
 tags: [books]
 share: false
 ---

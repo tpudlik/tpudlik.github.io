@@ -1,6 +1,7 @@
 ---
 layout: page
 title: A Savage War of Peace
+date: 2015-12-01
 tags: [books]
 share: false
 ---

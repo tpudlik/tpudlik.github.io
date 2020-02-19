@@ -34,6 +34,11 @@
   </div>
   <article class="page">
     <h1>{{ page.title }}</h1>
+    {% if page.date %}
+    <header>
+        <p><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%Y-%m-%d" }}</time></p>
+    </header>
+    {% endif %}
     <div class="article-wrap">
       {{ content }}
       {% if page.share != false %}
