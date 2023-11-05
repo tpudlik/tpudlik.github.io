@@ -16,3 +16,7 @@ share: false
 ## Places
 
 *   [Köln Cathedral](/notes/places/koeln_cathedral)
+
+## Puzzles
+
+*   [Cupcake puzzle](/notes/puzzles/cupcake)
