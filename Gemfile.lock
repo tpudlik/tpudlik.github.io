@@ -14,8 +14,7 @@ GEM
       execjs
     coffee-script-source (1.11.1)
     colorator (1.1.0)
-    commonmarker (0.17.13)
-      ruby-enum (~> 0.5)
+    commonmarker (0.23.10)
     concurrent-ruby (1.2.0)
     dnsruby (1.61.7)
       simpleidn (~> 0.1)
@@ -232,6 +231,8 @@ GEM
     nokogiri (1.14.1)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
+    nokogiri (1.14.1-x64-mingw-ucrt)
+      racc (~> 1.4)
     octokit (4.21.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -284,7 +285,7 @@ GEM
       unf_ext
     unf_ext (0.0.7.7)
     unicode-display_width (1.7.0)
-    webrick (1.7.0)
+    webrick (1.8.1)
     zeitwerk (2.6.6)
 
 PLATFORMS
@@ -298,7 +299,7 @@ DEPENDENCIES
   jekyll-sitemap
   liquid (~> 4.0.4)
   octopress
-  webrick (~> 1.7)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.4.21
