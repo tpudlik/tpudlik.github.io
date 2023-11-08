@@ -20,3 +20,4 @@ share: false
 ## Puzzles
 
 *   [Cupcake puzzle](/notes/puzzles/cupcake)
+*   [First Orchard](/notes/puzzles/first_orchard)
