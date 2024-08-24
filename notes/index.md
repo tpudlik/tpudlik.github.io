@@ -12,6 +12,7 @@ share: false
 *   Italo Calvino, [Invisible Cities](/notes/books/invisible_cities/)
 *   Alistair Horne, [A Savage War of Peace](/notes/books/savage_war_of_peace/)
 *   Jason Morningstar, [The Night Witches](/notes/books/night_witches)
+*   Pelle Nilsson and Johan Nohr, [Mörk Borg](/notes/books/mork_borg)
 
 ## Places
 
