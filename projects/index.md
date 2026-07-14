@@ -29,11 +29,15 @@ I am an occasional contributor to the special functions module of
 of spherical Bessel functions, and am working on and off on a better algorithm
 for evaluating the confluent hypergeometric function.
 
+## Physics ##
+
+*   [Explanation of a simple DC motor][DC motor], a toy problem but 
+    easily the most enjoyable piece of physics I did in graduate school.
+*   [Stirling engine as a dynamical system](/projects/engine).
+
 ## Others ##
 
-I sometimes ask and answer questions at [Stack Exchange: Physics][].  I am
-especially proud of [my explanation of a simple DC motor][DC motor],
-easily the most enjoyable piece of physics I did in graduate school.
+I sometimes ask and answer questions at [Stack Exchange: Physics][].
 
 I am also slowly working my way through Project Euler.
 
@@ -43,7 +47,7 @@ I am also slowly working my way through Project Euler.
     </a>
 </figure>
 
-On the more artistic side, I laser-cut flowers
+On the more artistic side, I made some laser-cut flowers
 ([photos][sunflower photos], [design][sunflower design]) and play
 paper-and-pencil roleplaying games.
 
