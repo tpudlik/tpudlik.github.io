@@ -14,7 +14,7 @@ different colors. The distribution of colors varies by piece:
 *  Frosting: two purple, one red, two blue
 
 <figure>
-    <a href="https://drive.google.com/uc?export=view&id=1hFS2G3t00MDclImT7PPJ0KIc1IaPXK68"><img src="https://drive.google.com/uc?export=view&id=1hFS2G3t00MDclImT7PPJ0KIc1IaPXK68"></a>
+    <a href="{{ site.url }}/images/cupcakes.jpeg"><img src="{{ site.url }}/images/cupcakes.jpeg"></a>
     <figcaption>The cupcake puzzle.</figcaption>
 </figure>
 
@@ -30,5 +30,5 @@ is (see picture!).
 But how many solutions are there?
 
 It turns out that, of the 5400 arrangements, only two solve the puzzle. This is
-fewer than I expected.
+fewer than I expected!
  [Colab with details](https://colab.research.google.com/drive/1lTdD7zIFsvVbTH7vJSLiR7re9OHtPeBK?usp=sharing).
