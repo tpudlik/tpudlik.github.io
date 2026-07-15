@@ -22,12 +22,14 @@ in the toy, and discussed here, is called the
 </figure>
 
 Here's a neat gif from Wikipedia (credit to
-[YK Times](https://en.wikipedia.org/wiki/User:YK_Times)) showing it in
-operation:
+[YK Times](https://en.wikipedia.org/wiki/User:YK_Times)) showing this type of
+engine in operation:
 
 ![Beta Stirling engine](https://upload.wikimedia.org/wikipedia/commons/4/4e/Stirling_Animation.gif)
 
 But how does it work?
+
+{% include _toc.html %}
 
 ## Engine description
 
@@ -70,7 +72,7 @@ where $$n$$ is the number of moles of the gas. This can more usefully be
 reexpressed as,
 
 $$
-W = \frac{m}{M} k_B \ln \frac{V_2}{V_1} (T_H - T_L)
+W = \frac{m}{M} k_B \ln \frac{V_2}{V_1} (T_H - T_L) \tag{1}
 $$
 
 where $$m$$ is the mass of the gas and $$M$$ the
@@ -84,9 +86,9 @@ that of the Carnot engine.
 
 Unfortunately, the four stages of the four-stage cycle are not apparent from
 observing a Stirling engine in action (including the gif from Wikipedia above).
-The motion of the engine is clearly continuous: the sharp corners are an
-artifact. It is also not clear why the flywheel is needed, or how fast we expect
-the engine to run.
+The motion of the engine is clearly continuous: the sharp transitions between
+discrete stages are an artifact. From thermodynamics alone it is also not clear
+why the flywheel is needed, or how fast we expect the engine to run.
 
 ## Dynamical systems model
 
@@ -100,7 +102,18 @@ I've wanted to take a stab at this for many years, but could never quite muster
 the energy to do so. It turns out Claude is a really delightful partner for
 studying problems like this, and with its help I finally made some progress!
 
-### Some definitions, and the equation of motion
+Some interesting results:
+
+- The [PV diagram](#pv_diagram) is a smooth trajectory.
+- Because the smooth PV trajectory fits within the trajectory of the
+  thermodynamic model, the [net work](#net_work) per cycle (equal to the area
+  inside the closed PV curve) is less.
+- The [phase portraits](#phase_portraits) show a bifurcation as the flywheel's
+  moment of inertia is increased. Below a critical value, the engine will come
+  to rest before completing a single revolution. Above that value, it will spin
+  at a roughly steady pace.
+
+### Definitions and the equation of motion
 
 In this approach, we'll focus on two state variables: flywheel angle $$\theta$$
 and angular velocity $$\omega = d\theta/dt$$.
@@ -114,7 +127,9 @@ $$x_p(\theta) = r\cos\theta, \qquad x_d(\theta) = -r\sin\theta \quad \text{(disp
 Positive $$x_p$$ means the piston moves outward (volume increases); positive
 $$x_d$$ means the displacer is near the cold (top) end of the cylinder.
 
-#### <a id="varepsilon_V"></a> Volume ($$\varepsilon_V$$)
+#### Volume ($$\varepsilon_V$$)
+
+{: #varepsilon_v}
 
 The working gas volume is set by the power piston:
 
@@ -122,9 +137,9 @@ $$V(\theta) = V_0 + Ar\cos\theta$$
 
 where $$V_0$$ is the dead volume (gas volume at $$\theta = \pi/2$$) and $$A$$ is
 the piston cross-sectional area. The dimensionless ratio
-$$\varepsilon_V = Ar/V_0$$ is the fractional volume amplitude. Note that in the
-toy Stirling engine, this is a small parameter: the piston has a much smaller
-radius than the main gas chamber.
+$$\varepsilon_V = Ar/V_0$$ is the _fractional volume amplitude_. Note that in
+the toy Stirling engine, this is a small parameter: the piston has a much
+smaller radius than the main gas chamber.
 
 As we'll see below, $$\varepsilon_V$$ is an important dimensionless parameter of
 the model.
@@ -185,6 +200,8 @@ A couple observations about this equation:
 
 ### Net work
 
+{: #net_work}
+
 With the equation of motion in hand, we can do some interesting computations.
 For example, we can figure out the net work per cycle (the same quantity
 computed above for the thermodynamic model).
@@ -212,7 +229,7 @@ $$\int_0^{2\pi} \frac{\sin^2\theta}{1+\varepsilon_V\cos\theta}\,d\theta = \frac{
 
 The closed-form result for the net work per cycle is therefore
 
-$$W = \frac{2\pi ArP_0\,\varepsilon_T\,(1 - \sqrt{1-\varepsilon_V^2})}{\varepsilon_V^2} > 0 \quad (\Delta T > 0)$$
+$$W = \frac{2\pi ArP_0\,\varepsilon_T\,(1 - \sqrt{1-\varepsilon_V^2})}{\varepsilon_V^2} > 0 \quad (\Delta T > 0) \tag{2}$$
 
 This is exact in $$\varepsilon_V$$ (and linear in $$\varepsilon_T$$, since
 $$P - P_0$$ is linear in $$\varepsilon_T$$).
@@ -220,7 +237,8 @@ $$P - P_0$$ is linear in $$\varepsilon_T$$).
 #### Comparison to the thermodynamic model
 
 At first glance, this looks very different from the expression for net work per
-cycle from the standard thermodynamic model, which is given by,
+cycle from the standard thermodynamic model (let's call it $$W_*$$), given by
+Eq. 1 [above](#thermodynamic-model):
 
 $$
 W_* = \frac{m}{M} k_B \ln \frac{V_2}{V_1} (T_H - T_L)
@@ -234,7 +252,7 @@ $$
 W_* = \frac{m}{M} k_B \ln \frac{1 + \varepsilon_V}{1 - \varepsilon_V} (T_H - T_L) = 2 \frac{m}{M} k_B \varepsilon_V \Delta T + O(\varepsilon_V^3)
 $$
 
-while expanding for small $$\varepsilon_V$$
+while expanding Eq. 2 for small $$\varepsilon_V$$
 ([fractional volume amplitude](#varepsilon_v)),
 
 $$W = \pi ArP_0\,\varepsilon_T\!\left(1 + \frac{\varepsilon_V^2}{4} + O(\varepsilon_V^4)\right)$$
@@ -258,6 +276,13 @@ The difference arises because the cycle does not consist of isothermal and
 isochoric sections, as assumed in the simple thermodynamic model. Instead, we're
 now moving on a smooth closed trajectory in PV space.
 
+### PV diagram
+
+{: #pv_diagram}
+
+Using the equations for pressure and volume as a function of $$\theta$$, we can
+plot the PV diagram for this model, and compare it to the thermodynamic model.
+
 <figure>
     <a href="{{ site.url }}/images/stirling_pv_diagram.png"><img src="{{ site.url }}/images/stirling_pv_diagram.png"/></a>
     <figcaption>The PV diagram of the Stirling engine. The trajectory of the dynamical-systems
@@ -279,6 +304,8 @@ not change $$\omega_\infty$$ but widens the basin of attraction of the limit
 cycle.
 
 ## Phase portraits
+
+{: #phase_portraits}
 
 To understand the dynamics of this system, let's examine its
 [phase portraits](http://en.wikipedia.org/wiki/Phase_space): trajectories on the
@@ -325,7 +352,7 @@ $$\theta^* = \pi - \arctan\!\frac{\varepsilon_V}{\varepsilon_T}, \qquad 2\pi - \
 Whether these fixed points are the final attractors depends on the flywheel
 inertia $$I$$:
 
-**Small $$I$$ (left panel, $$I < I_\text{crit}$$>):** The flywheel stores too
+**Small $$I$$ (left panel, $$I < I_\text{crit}$$):** The flywheel stores too
 little kinetic energy to coast through the braking phases of the cycle. The
 engine **stalls**: trajectories converge to one of the two stable fixed points
 at $$\tan\theta = -\frac{\varepsilon_V}{\varepsilon_T}$$.
