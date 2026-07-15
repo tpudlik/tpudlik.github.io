@@ -21,3 +21,12 @@
 {% if page.comments %}
   {% include _disqus_comments.html %}
 {% endif %}
+{% if page.math %}
+<script src="{{ site.url }}/assets/vendor/katex/katex.min.js"></script>
+<script src="{{ site.url }}/assets/vendor/katex/auto-render.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body);
+  });
+</script>
+{% endif %}

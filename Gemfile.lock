@@ -12,7 +12,6 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    execjs (2.10.1)
     faraday (2.14.3)
       faraday-net_http (>= 2.0, < 3.5)
       json
@@ -89,13 +88,8 @@ GEM
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     json (2.21.1)
-    katex (0.11.0)
-      execjs (~> 2.8)
     kramdown (2.5.2)
       rexml (>= 3.4.4)
-    kramdown-math-katex (1.0.1)
-      katex (~> 0.4)
-      kramdown (~> 2.0)
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.4)
@@ -185,7 +179,6 @@ DEPENDENCIES
   jekyll
   jekyll-gist
   jekyll-sitemap
-  kramdown-math-katex
   liquid (~> 4.0.4)
   webrick (~> 1.8)
 
@@ -198,7 +191,6 @@ CHECKSUMS
   csv (3.3.5) sha256=6e5134ac3383ef728b7f02725d9872934f523cb40b961479f69cf3afa6c8e73f
   em-websocket (0.5.3) sha256=f56a92bde4e6cb879256d58ee31f124181f68f8887bd14d53d5d9a292758c6a8
   eventmachine (1.2.7) sha256=994016e42aa041477ba9cff45cbe50de2047f25dd418eba003e84f0d16560972
-  execjs (2.10.1) sha256=abe0ae028467eb8e30c10814eb934d07876a691aae7e803d813b7ce5a75e73f1
   faraday (2.14.3) sha256=1882247e6766615c8220b4392bf1d27f6ebb63d8e28267587cef1fb0bf37f278
   faraday-net_http (3.4.4) sha256=0e78af151747ed1b00f33e25973b4bc220d7f16c00c39676817c8b12331eb588
   ffi (1.17.4) sha256=bcd1642e06f0d16fc9e09ac6d49c3a7298b9789bcb58127302f934e437d60acf
@@ -230,9 +222,7 @@ CHECKSUMS
   jekyll-sitemap (1.4.0) sha256=0de08c5debc185ea5a8f980e1025c7cd3f8e0c35c8b6ef592f15c46235cf4218
   jekyll-watch (2.2.1) sha256=bc44ed43f5e0a552836245a54dbff3ea7421ecc2856707e8a1ee203a8387a7e1
   json (2.21.1) sha256=13a43df75d95641443f5702dff350f237164a9d811ff0f2c2800d4d980220583
-  katex (0.11.0) sha256=6f9fa9a13e2ba616a0f8d783cc9b30979f0eefb0f5f1e04e66fe7dd8eb682e78
   kramdown (2.5.2) sha256=1ba542204c66b6f9111ff00dcc26075b95b220b07f2905d8261740c82f7f02fa
-  kramdown-math-katex (1.0.1) sha256=7119b299fed5ec49b9e2107d18e88f90acf4bbdf1b82a7568fd488790bb04cdc
   kramdown-parser-gfm (1.1.0) sha256=fb39745516427d2988543bf01fc4cf0ab1149476382393e0e9c48592f6581729
   liquid (4.0.4) sha256=4fcfebb1a045e47918388dbb7a0925e7c3893e58d2bd6c3b3c73ec17a2d8fdb3
   listen (3.10.0) sha256=c6e182db62143aeccc2e1960033bebe7445309c7272061979bb098d03760c9d2
