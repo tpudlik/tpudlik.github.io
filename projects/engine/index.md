@@ -113,6 +113,9 @@ Some interesting results:
   to rest before completing a single revolution. Above that value, it will spin
   at a roughly steady pace.
 
+For the source code used to generate the plots below, see
+[this repository](https://github.com/tpudlik/stirling).
+
 ### Definitions and the equation of motion
 
 In this approach, we'll focus on two state variables: flywheel angle $$\theta$$
