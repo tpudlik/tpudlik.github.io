@@ -7,10 +7,10 @@ image:
   feature: header-heisenberg.jpg
 ---
 
-I am a software engineer at Google.  I was originally trained as a theoretical
-physicist, spent a couple years predicting the impact of network
-maintenance, then three more in the lidar group at [Waymo](http://waymo.com).
-I currently work on [Pigweed](http://pigweed.dev).
+I am a software engineer working on sensors at Waymo. I was originally trained
+as a theoretical physicist, then spent a couple years at Google predicting the
+impact of network maintenance, and four years developing
+[Pigweed](http://pigweed.dev), with a focus on its build system.
 
-This webpage contains descriptions of my grad school
-[research work](/research) and various [side projects](/projects).
+This webpage contains descriptions of my grad school [research work](/research)
+and various [side projects](/projects).
