@@ -13,9 +13,15 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
+  # The fixes for these need Dart Sass module syntax, which GitHub Pages'
+  # default build doesn't support. Revisit before upgrading to Dart Sass 3.0.
+  silence_deprecations:
+    - import
+    - global-builtin
+    - color-functions
+    - slash-div
 plugins:
   - jekyll-sitemap
-  - jekyll-gist
 
 kramdown:
   auto_ids: true
