@@ -7,10 +7,7 @@
    ========================================================================== */
 
 @media print {
-  .top-navigation, 
-  .social-share, 
-  .related-articles,
-  .google-ads {
+  .top-navigation {
     display: none;
   }
 }
